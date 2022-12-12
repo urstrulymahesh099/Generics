@@ -8,7 +8,7 @@ namespace Generics
 {
     internal class FindMax
     {
-        public static char  FindInMax(char num1, char num2, char num3)
+        public static T  FindInMax<T>(T num1, T num2, T num3)where T : IComparable<T>
         {
             if(num1.CompareTo(num2)>0&& num1.CompareTo(num3)>0)
             {
