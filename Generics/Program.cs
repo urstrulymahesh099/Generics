@@ -5,7 +5,7 @@ namespace Generics
     {
         public static void Main(string[] args)
         {
-            int max = FindMax.FindInMax(8, 4, 3);
+            float max = FindMax.FindInMax(8.3f, 4.5f, 3.5f);
             Console.WriteLine($"The maximum Number is :{max}");
         }
     }
